@@ -1,0 +1,100 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{
+    height: 100vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(45deg,rgba(97, 96, 96, 0.5),rgb(0, 0, 0));
+}
+.calculator{
+    border:1px solid rgb(63, 59, 59);
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:4px 15px 15px rgb(65, 60, 60);
+}
+input{
+    padding:30px;
+    width:100%;
+    border-radius:20px;
+    border:none;
+    background: transparent;
+    text-align: right;
+    font-size: 33px;
+    color:white;
+}
+button{
+    border:none;
+    border-radius: 50px;
+    height: 60px;
+    width:60px;
+    padding:15px;
+    margin-left:42px;
+    margin-bottom:30px;
+    background:none;
+    cursor:pointer;
+    box-shadow:-5px -3px 10px rgb(112, 109, 109);
+    font-size: 18px;
+    color:rgb(195, 182, 182);
+}
+.operators:hover{
+    background-color: orangered;
+    color:rgb(20, 16, 16);
+    scale: 1.1;
+    transition-duration: 0.5s;
+}
+.equal{
+    background-color: greenyellow;
+    color:white;
+    font-size: 22px;
+}
+.equal:hover{
+    transition-duration: 1s;
+    box-shadow: -2px -2px 10px rgb(215, 211, 211);
+    color:black
+}
+.equal:active{
+    transition-duration: 0.3s;
+    scale:1.1
+}
+.clear{
+    background-color: orangered;
+    color:rgb(220, 196, 196);
+}
+.clear:hover{
+    transition:ease-in-out;
+    transition-duration: 1s;
+    scale:1.1;
+    box-shadow: 0px 2px 10px whitesmoke;
+}
+.clear:active{
+    transition-duration: 0.3s;
+    scale:0.9;
+    box-shadow: 0px 2px 10px orangered;
+    color:greenyellow
+}
+.numbutton:hover{
+    transition-duration: 1s;
+    box-shadow: 0px 2px 10px whitesmoke;
+}
+#togglebutton{
+    font-size: 25px;
+    padding:12px;
+    color:greenyellow;
+}
+#togglebutton:hover{
+    transition:0.5s ease-in-out;
+    box-shadow:0px 2px 10px rgb(170, 163, 161);
+    scale:1.1;
+}
+#togglebutton:active{
+    transition:0.5s ease-in-out;
+    box-shadow:0px 2px 10px rgb(170, 163, 161);
+    scale:1.1;
+}
