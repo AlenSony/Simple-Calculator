@@ -180,12 +180,14 @@ button:active {
     font-weight: 500;
 }
 
-.equal {
+#equalBtn {
+    grid-column: 1 / -1;
+    width: 100%;
     background: var(--accent-color);
     color: white;
 }
 
-.equal:hover {
+#equalBtn:hover {
     background: #0066CC;
 }
 
